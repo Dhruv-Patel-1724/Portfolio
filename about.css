@@ -1,0 +1,266 @@
+.box2 {
+  width: 52%;
+  height: 50vh;
+  border: none;
+  padding-top: 20vh;
+  margin: auto;
+}
+.para {
+  font-size: 1.4rem;
+  font-family: sans-serif;
+}
+.aboutMe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+}
+a:hover {
+  color: rgb(25, 47, 78);
+}
+
+.btn {
+  display: inline-block;
+  background: #38bdf8;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(135deg, #e4ecf7, #f2714671);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  height: 10vh;
+  border: 1px solid black;
+  background: rgba(65, 31, 31, 0.086);
+  background: linear-gradient(135deg, #e4ecf7, #f2714671);
+  
+  display: flex;
+  width: 100%;
+  position: fixed;
+  box-shadow: 1px 1px 6px black;
+}
+
+.header ul li a:hover {
+  color: #4a90e2;
+}
+.left {
+  width: 30%;
+  height: 10vh;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  height: 10vh;
+  width: 70%;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  list-style-type: none;
+  height: 10vh;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: blue;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  background: rgba(128, 128, 128, 0.237);
+  display: flex;
+}
+.box1 {
+  width: 40%;
+  height: 50vh;
+  border: none;
+  margin-top: 10vh;
+  padding-top: 8vh;
+}
+footer {
+  background: #0b0c2a;
+  color: #d1d5e0;
+  padding: 50px 8%;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30vh;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  display: block;
+  margin-bottom: 10vh;
+}
+
+.footer-section ul li a {
+  display: block; /* make link block level */
+  padding: 5px 0; /* spacing between links */
+  color: #cdd5f7;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #4a90e2;
+}
+
+.github-btn {
+  display: inline-block;
+  background: #141640;
+  color: #f4f4f4;
+  border: 1px solid #4a90e2;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.github-btn:hover {
+  background: #4a90e2;
+  color: #fff;
+}
+
+.social-icons a {
+  color: #cdd5f7;
+  font-size: 1.2rem;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #4a90e2;
+}
+
+.footer-credit {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #1d1e38;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #cdd5f7;
+}
+/*---------*/
+.college {
+  width: 90%;
+  height: 40vh;
+  border: none;
+  margin: auto;
+  margin-top: 35vh;
+}
+
+/* ===== Education Section ===== */
+#education {
+  background: #0d1117;
+  color: #fff;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+#education h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00dfc0;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.edu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.edu-card {
+  background: #161b22;
+  border: 2px solid #00dfc0;
+  border-radius: 10px;
+  padding: 25px;
+  width: 300px;
+  transition: all 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px #00dfc0;
+}
+
+.edu-card h3 {
+  font-size: 1.4rem;
+  color: #00dfc0;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+/* Target only the B.Tech card for CGPA badge */
+.edu-card:nth-child(2) {
+  position: relative;
+}
+
+/* CGPA badge next to 'Information Technology' */
+.edu-card:nth-child(2)::after {
+  content: "CGPA: 8.23";
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  background: #00dfc0;
+  color: #0d1117;
+  font-weight: bold;
+  padding: 3px 3px;
+  border-radius: 15px;
+  font-size: 0.6rem;
+  box-shadow: 0 0 10px #00dfc0;
+}
